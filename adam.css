@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(#fff,#000);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amah{
+    width: 350px;
+    height: 400px;
+
+    background:black;
+    background-image: url(image/stars1.webp);
+    
+    
+    
+    
+    border-radius: 15px;
+    
+}
+input{
+    width: 335px;
+    height: 50px;
+    border-radius: 12px;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: crimson;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    padding-left: 15px;
+    
+    
+}
+.adam{
+    display: grid;
+    grid-template-columns: 33.5% 33.5% 33.5% ;
+    
+    
+    width: 350px;
+    height: 350px;
+    
+    
+    
+    
+}
+button:hover{
+    background-image: url(image/barmaja.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+button{
+    border-radius: 50px;
+    transition: 0.9s;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 22px;
+    margin-right: 10px;
+    border-color: chartreuse;
+    
+    
+}
